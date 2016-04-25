@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style-index.css">
+		<meta charset="UTF-8">
+		<meta name="author" content="Rambod Rahmani">
+		<meta name="description" content="Progetto Web Development a.a. 2014/2015">
+		<meta name="generator" content="TextMate">
+		<title>Progetto Web Development a.a. 2014/2015</title>
+
+		<!-- 
+			VALIDATOR: Il validator restituisce come risultato "Passed, 1 warning(s)". Il warning presente è dovuto al fatto che il validator utilizzato è una BETA che utilizza funzioni sperimentali. Viene infatti riportato "Using experimental feature: HTML5 Conformance Checker." nei risultati e non viene riportato alcun warning da risolvere.
+		-->
+	</head>
+	
+	<body>
+		<header>
+			<h2>Corso di laurea in Ingegneria Informatica a.a. 2014/2015</h2>
+			<h1>PROGETTAZZIONE WEB</h1>
+			<h2>PROGETTO DIDATTICO</h2>
+			<h2>Rambod Rahmani</h2>
+		</header>
+		<nav><hr /></nav>
+		<section id="content" class="body">
+			<h2>Manuale Utente</h2>
+			<p>
+				Come progetto ho scelto il Pannello di Controllo degli eventi dell'app Ubi. Ubi è un prodotto che ho pensato, ideato e infine sviluppato con altri colleghi di varie Università Italiane.<br>
+				To make a long story short: Ubi è una piattaforma social il quale obbiettivo è mettere tutti gli eventi della città su una mappa. L'utente potrà quindi prendere il suo smartphone per sapere di tutte le iniziative che lo circondano. Sulla mappa vengono visualizzati sotto forma di marker anche le varie attività commerciali presenti e gli altri utenti (geo localizzati) registrati al servizio (nel caso che questi abbiano acconsentito condividendo la propria posizione). Per ora stiamo partendo dalla città di Pisa ma il Backend Server creato - composto da 1 Server dedicato principale e 6 macchine virtuali sulle quali il Server principale distribuisce il carico di lavoro - è predisposto per una eventuale futura espansione territoriale.<br>
+				Abbiamo sviluppato il prodotto per quasi 6 mesi ad oggi e siamo a un passo dalla pubblicazione della BETA 1 per le piattaforme iOS e Android. Seguiranno poi una serie di versioni BETA che ci permetteranno di portare avanti il processo di bug fixing e di preparare la versione tablet per le due piattaforme. La versione 1.0 definitiva è prevista nella prima settimana di Marzo. Periodo nel quale inizierà anche lo sviluppo della versione Web della piattaforma seguita poi dallo sviluppo della versione Windows Phone.<br>
+				La seguente immagine rende abbastanza chiaramente l'idea:</p>
+				<img src="ubi_screen.png" class="ubi_screen" alt="Screen Ubi">
+			<p class="last">	
+				Maggiori informazioni sono disponibili in questo documento PDF: <a href="http://www.ubisocial.it/docs/ubi_business_plan.pdf" target="_blank">Ubi - Business Plan</a>.<br><br>
+				Il Pannello di Controllo degli Eventi permette agli utenti che sono iscritti su Ubi di gestire (visualizzare, pubblicare o eliminare) eventi in maniera semplice e veloce. La versione web è stata creata per permettere agli utenti, ai gestori di attività commerciali o altri enti terzi di gestire gli eventi in maniera più comoda. Lo schermo di uno smarphone non è infatti proprio adatto per questo fine.<br>
+				Ogni utente esegue il login utilizzando l'accesso con uno dei Social Network disponibili, lo stesso che ha utilizzato per eseguire l'accesso sulle piattaforme iOS o Android: quando l'utente esegue il login viene preso il suo indirizzo email tramite il quale vengono recuperate le sue informazioni dal datavase principale con le quali viene creata una sessione PHP.<br>
+				Una votla eseguito il login con successo la prima schermata visualizzata è quella contenente le informaizoni riguardanti il profilo e gli eventi dell'utente. L'utente può quindi scegliere di modificare le informazioni di un evento, eliminarlo completamente oppure aggiungerne uno nuovo.<br>
+				Per ogni evento devono essere specificati un nome, una descrizione, un'immagine, un luogo, una data d'inizio e una data di fine evento.<br>
+				Tutti gli eventi inseriti tramite il portale web, o qualsiasi modifica effettuata tramite esso sono immediatamente disponibili sulle mappe delle piattaforme iOS e Android.
+			</p>
+			
+			<h2>Vai al Progetto</h2>
+			<h2><a href="progetto/index.php">Ubi - Accedi</a></h2>
+			<p></p>
+		</section>
+		<footer>
+			<hr />
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,248 @@
+/* stylesheet for ../profile.php */
+
+/* VALIDATOR: Il validator restituisce come risultato "Passed". */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+body
+{
+	width: 100%;
+}
+
+header
+{
+	width: 100%;
+}
+
+nav
+{
+	width: 100%;
+	min-width: 600px;
+	height: 60px;
+	border-bottom: #06C 1px solid;
+	vertical-align: middle;
+	background-color: #fbf7f7;
+}
+
+nav p
+{
+	display: inline-block;
+	padding: 18px;
+	font-size: 20px;
+	color: #999;
+}
+
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #999;
+}
+
+nav a:hover
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #06C;
+}
+
+nav a.logout:hover
+{
+	display: inline-block;
+	text-decoration: none;
+	color: red;
+}
+
+nav a.selected
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #06C;
+}
+
+#content.body
+{
+	width: 100%;
+	min-width: 600px;
+	text-align: center;
+}
+
+#user_info
+{
+	width: 36%;
+	min-width: 230px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-left: 32%;
+	margin-right: 32%;
+	padding: 1%;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #06C;
+	text-align: center;
+	background-color: #eeeeee;
+	box-shadow: 0px 0px 70px black;
+}
+
+#user_info img.user_profile_pic
+{
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #06C;
+}
+
+#user_info p.user_full_name
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+#user_info hr.custom-style
+{
+	height: 1px;
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+#user_info p.user_bio
+{
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 12px;
+}
+
+#btn_add_event_wrapper
+{
+	margin-top: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#custom_add_event_btn
+{
+	width: 70%;
+	max-width: 250px;
+	height: 48px;
+	display: inline-block;
+	border-radius: 5px;
+	background: #0154a7;
+	color: white;
+	white-space: nowrap;
+}
+
+#custom_add_event_btn:hover
+{
+	background: #06C;
+}
+
+#btn_add_event_wrapper span.buttonText
+{
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 12px;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+#custom_add_event_btn a
+{
+	text-decoration: none;
+	color: white;
+}
+
+footer
+{
+}
+
+/* mobile phone 768px */
+/* (iphone: 1000px) */
+@media screen and (max-width:1000px)
+{
+	nav
+	{
+		height: 150px;
+		border-bottom: #06C 3px solid;
+	}
+	
+	nav p
+	{
+		padding: 25px;
+		padding-top: 40px;
+		font-size: 54px;
+		font-weight: bold;
+	}
+	
+	p.welcome
+	{
+		visibility: hidden;
+	}
+	
+	#user_info
+	{
+		width: 80%;
+		margin-top: 90px;
+		margin-left: 9%;
+		margin-right: 9%;
+		padding: 2%;
+		border-width: 3px;
+	}
+	
+	#user_info img.user_profile_pic
+	{
+		width: 400px;
+		height: 400px;
+	}
+	
+	#user_info p.user_full_name
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		font-size: 36px;
+		font-weight: bold;
+	}
+	
+	#user_info p.user_bio
+	{
+		font-size: 30px;
+	}
+	
+	#custom_add_event_btn
+	{
+		width: 100%;
+		max-width: 450px;
+		height: 90px;
+	}
+	
+	#btn_add_event_wrapper span.buttonText
+	{
+		padding-top: 14px;
+		font-size: 2.5rem;
+		font-weight: bold;
+	}
+}

@@ -1,0 +1,2 @@
+AuthName "website"
+AuthUserFile "/home4/rrahmani/.htpasswds/public_html/Ubi/website/passwd"
