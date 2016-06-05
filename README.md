@@ -14,3 +14,5 @@ Di seguito alcune screen del portale:
 <img src="screens/1.png" alt="Protale Web Ubi - PIC 1" width="400px"/> <img src="screens/2.png" alt="Protale Web Ubi - PIC 2" width="400px"/> <img src="screens/3.png" alt="Protale Web Ubi - PIC 3" width="400px"/> <img src="screens/4.png" alt="Protale Web Ubi - PIC 4" width="400px"/>
 
 ##### Maggiori informazioni disponibili sul mio profilo Linkedin: https://www.linkedin.com/in/rambodrahmani
+
+Rambod Rahmani <rambodrahmani@autistici.org>
