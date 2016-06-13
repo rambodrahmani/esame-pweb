@@ -15,4 +15,4 @@ Di seguito alcune screen del portale:
 
 ##### Maggiori informazioni disponibili sul mio profilo Linkedin: https://www.linkedin.com/in/rambodrahmani
 
-Rambod Rahmani <rambodrahmani@autistici.org>
+Rambod Rahmani <<rambodrahmani@autistici.org>>
